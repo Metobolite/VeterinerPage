@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/VeterinerPage/static/css/main.dc253ae6.css",
+    "main.js": "/VeterinerPage/static/js/main.a5899310.js",
+    "static/media/carousel-11.jpg": "/VeterinerPage/static/media/carousel-11.123021df15a4cd083c32.jpg",
+    "static/media/veterinericon.jpg": "/VeterinerPage/static/media/veterinericon.a39e6d3d7b31dc4a0d61.jpg",
+    "index.html": "/VeterinerPage/index.html",
+    "main.dc253ae6.css.map": "/VeterinerPage/static/css/main.dc253ae6.css.map",
+    "main.a5899310.js.map": "/VeterinerPage/static/js/main.a5899310.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc253ae6.css",
+    "static/js/main.a5899310.js"
+  ]
+}
