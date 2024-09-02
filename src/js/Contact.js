@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <div id="contact" className="contactAll">
             <div className="contactText">
-                <h1 className="font-bold text-blue-950 mb-0 md:text-6xl">Randevunuzu 
+                <h1 className="font-bold text-blue-950 mb-0 xl:text-6xl">Randevunuzu 
                     <br/>
                     bugün planlayın</h1>
                 <br />

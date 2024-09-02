@@ -2,7 +2,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Link } from 'react-router-dom';
 import {motion as m} from "framer-motion";
 
-
 const servis = () => {
     return (
         <m.div
@@ -12,9 +11,9 @@ const servis = () => {
         >
                 <div id="servis" class="container-fluid bg-white pt-5">
                 <div class="container py-5">
-                    <div class="d-flex flex-column text-center mb-5 pt-16">
+                    <div class="d-flex flex-column text-center mb-5 xl:pt-16">
                         <h4 class="text-secondary mb-3">Servislerimiz</h4>
-                        <h1 class="display-4 m-0 pb-16"><span class="text-primary"></span>Evcil Hayvan Servisleri</h1>
+                        <h1 class="display-4 m-0 xl:pb-16"><span class="text-primary"></span>Evcil Hayvan Servisleri</h1>
                     </div>
                     <div class="row pb-3">
                         <div class="col-md-6 col-lg-4 mb-4">
@@ -42,9 +41,9 @@ const servis = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="tumServisler1">
+                    {/* <div className="tumServisler1">
                         <Link to="/tumServis" className="tumServisler">Tüm Servisler</Link>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </m.div>

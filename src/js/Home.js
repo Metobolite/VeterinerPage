@@ -10,12 +10,12 @@ const Home = () => {
             <div id="home" className="home">
                 <div className="hero-main">
                     <div className="hero-text">
-                        <h1>Dostlarınız için 
+                        <h1 className = "text-6xl">Dostlarınız için 
                             <br/>
-                            en iyi veteriner kliniği</h1>
+                            en iyi<br/>veteriner kliniği</h1>
                         <p className="font-normal text-2xl pt-8 text-blue-950">Sağlıklı patiler - neşeli veteriner hekimler</p>
                     </div>
-                    <div className="h-96 w-full md:h-auto">
+                    <div className="h-96 md:min-h-screen w-full xl:h-auto xl:pt-28">
                         <div className="hero-img">
                         </div>
                     </div>
