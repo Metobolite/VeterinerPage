@@ -1,15 +1,20 @@
+import { Link } from "react-router-dom";
+
 const footer = () => {
     return (
-        <div className="footerAll">
-            <div className="footer1">
-                <h3>Copyright 2024 All rights are reserved</h3>
-                <div className="footerSocial">
-                    <a href="https://www.instagram.com/metinnabiyev0/" alt="instagram link" id="instagram" rel="noreferrer" target="_blank"></a>
-                    <a href="https://www.linkedin.com/in/metin-nabiyev-8409a0298/" alt="linkedin link" id="linkedin2" rel="noreferrer" target="_blank"></a>
+        <footer className="bg-gray-800 py-8">
+            <div className="container mx-auto px-4">
+                <div className="flex flex-col md:flex-row justify-between items-center ">
+                    <p className="text-white text-xl mb-0">&copy; 2024 Esenyurt Veteriner. All rights reserved.</p>
+                    <nav className="mt-4 md:mt-0">
+                        <ul className="flex gap-4">
+                            <li><Link href="#" className="hover:text-primary text-white text-lg">Privacy Policy</Link></li>
+                            <li><Link href="#" className="hover:text-primary text-white text-lg">Terms of Service</Link></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </div>
-
+      </footer>
     );
 }
  

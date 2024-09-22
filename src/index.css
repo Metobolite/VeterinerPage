@@ -12,14 +12,6 @@
 html{
   scroll-behavior:smooth ;
 }
-/* @keyframes animationSlide {
-  from {
-    transform: rotateY(100%);
-  }
-  to {
-    transform: rotateY(0%);
-  }
-} */
 
 .navbar {
   padding: 20px;
@@ -72,7 +64,7 @@ html{
 
 .icon{
   @apply align-middle justify-center bg-cover relative h-16 w-16;
-  background-image: url(../img/veterinericon.jpg);
+  background-image: url(../public/img/veterinericon.jpg);
 }
 
 #servisler{
@@ -89,22 +81,18 @@ html{
   @apply flex align-middle justify-center pt-12
 }
 
+.buttonAppointment{
+  @apply w-1/3 !bg-sky-300 hover:bg-sky-500 !text-gray-700 !flex !justify-center !items-center
+}
 
 .about-main{
-  @apply align-middle justify-center flex xl:flex-row flex-col xl:align-middle xl:flex xl:gap-24 xl:relative bg-white xl:rounded-3xl xl:h-auto xl:m-10;
+  @apply align-middle justify-center flex flex-col xl:flex-row xl:pt-16 items-center xl:gap-8 xl:relative bg-white xl:rounded-3xl xl:h-auto;
 }
 .about-text{
-  @apply text-center xl:text-left flex flex-col xl:w-full xl:relative xl:pl-5 xl:pb-36 pt-8 pl-6 pr-6 xl:pr-0;
+  @apply text-center xl:text-left flex flex-col xl:w-full xl:relative xl:pl-5 xl:pb-36 pl-6 pr-6 xl:pr-0;
 }
 .about-text h1{
   @apply lg:font-extrabold lg:text-4xl text-blue-950
-}
-.about-img{
-  @apply w-full border rounded-3xl
-}
-.about-img1{
-  @apply bg-cover min-h-96 md:min-h-screen xl:min-h-full w-full rounded-3xl;
-  background-image: url(../img/carousel-11.jpg);
 }
 .moreAbout li{
   @apply text-xl text-blue-950;
@@ -118,43 +106,23 @@ html{
   @apply overflow-hidden
 }
 .hero-main{
-  @apply rounded-3xl xl:flex-row flex-col flex align-middle xl:gap-28 relative bg-indigo-50 xl:rounded-full w-full h-auto;
-  animation: animationSlide 1.4s ease-in;
-
+  @apply rounded-3xl xl:flex-row flex-col flex align-middle md:pr-8 xl:gap-28 relative bg-indigo-50 xl:rounded-full w-full h-auto;
 }
 .hero-text{
-  @apply text-center flex flex-col w-full relative xl:pl-16 pt-32 xl:pb-36 xl:pt-80;
+  @apply text-center flex flex-col pl-6 pr-6 w-full relative xl:pl-16 pt-32 xl:pb-36 xl:pt-80;
 }
 .hero-text h1{
   @apply xl:font-extrabold xl:text-6xl text-blue-950
 }
 .hero-img{
   @apply min-h-full bg-cover w-full rounded-3xl;
-  background-image: url(../img/anasayfa.png);
-}
-#linkedin{
-  /* background-image: url(./photos/linkedin2.png); */
-  align-items: center;
-  display: flex;
+  background-image: url(../public/img/anasayfa.png);
   position: relative;
-  justify-content: center;
-  height: 1.5rem;
-  width: 1.5rem;
-  background-size: cover;
-  text-indent: -999px;
-  margin-top: 15px;
+  z-index: 100;
 }
-#github{
-  /* background-image: url(./photos/github.png); */
-  align-items: center;
-  display: flex;
-  position: relative;
-  justify-content: center;
-  height: 1.5rem;
-  width: 1.53rem;
-  background-size: cover;
-  text-indent: -999px;
-  margin-top: 15px;
+.hero-paw{
+  @apply absolute xl:top-[150px] top-[400px] right-5 xl:right-[500px] h-1/2 w-full xl:h-[45%] bg-cover xl:w-1/5;
+  background-image: url(../public/img/paw.png);
 }
 .home span{
   display: flex;
@@ -212,51 +180,3 @@ html{
   align-items: center;
   gap: 1rem;
 }
-.footerAll{
-  @apply  text-center p-3 xl:p-12 xl:pl-64 xl:pr-80;
-  background-color: rgba(0, 0, 0, 0.81);
-
-}
-.footerAll h3 {
-  @apply mb-0;
-  color: white;
-  font-size: larger;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer1{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#linkedin2{
-  display: flex;
-  align-items: center;
-  /* background-image: url(./photos/linkedin.png); */
-  height: 1.4rem;
-  width: 1.4rem;
-  background-size: cover;
-  text-indent: -999px;
-  background-size: cover;
-}
-#instagram{
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  /* background-image: url(./photos/instagram.png); */
-  height: 2rem;
-  width: 2rem;
-  background-size: cover;
-  text-indent: -999px;
-  border-radius: 100%;
-  border-color: white;
-}
-.footerSocial{
-  align-items: center;
-  display: flex;
-  gap: 1rem;
-}
-

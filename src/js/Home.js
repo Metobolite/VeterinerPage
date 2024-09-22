@@ -10,13 +10,13 @@ const Home = () => {
             <div id="home" className="home">
                 <div className="hero-main">
                     <div className="hero-text">
-                        <h1 className = "text-6xl">Dostlarınız için 
-                            <br/>
-                            en iyi<br/>veteriner kliniği</h1>
-                        <p className="font-normal text-2xl pt-8 text-blue-950">Sağlıklı patiler - neşeli veteriner hekimler</p>
+                        <h1 className = "text-7xl font-extrabold">Dostlarınız için en iyi<br/>veteriner kliniği</h1>
+                        <p className="font-normal pt-8 text-blue-950 text-2xl">Sağlıklı patiler - neşeli veteriner hekimler</p>
                     </div>
-                    <div className="h-96 md:min-h-screen w-full xl:h-auto xl:pt-28">
+                    <div className="h-96 md:min-h-screen w-full xl:h-auto mt-16 xl:pt-28">
                         <div className="hero-img">
+                        </div>
+                        <div className = "hero-paw">
                         </div>
                     </div>
                 </div>
